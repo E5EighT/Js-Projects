@@ -1,0 +1,15 @@
+<%- include("partials/head.ejs") %>
+
+    <%- include("partials/nav.ejs") %>
+    <h1 class="text-success text-center">Post Result:</h1>
+
+    <main class="container p-4 vh-100">
+        
+            <h3 class="text-success "><%= data.id %></h3>
+            <p class="text-success h4"><%= data.title %></p>
+            <p class="text-success"><%= data.body %></p>
+            
+        
+    </main>
+
+<%- include("partials/footer.ejs") %>

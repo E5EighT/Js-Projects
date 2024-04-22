@@ -1,0 +1,15 @@
+<%- include("partials/head.ejs") %>
+
+    <%- include("partials/nav.ejs") %>
+    <h1 class="text-success text-center">Welcome to my node website</h1>
+
+    <main class="container p-4">
+        <% for(i = 0; i < data.length; i++) { %>
+            <h3 class="text-success "><%= data[i].id %></h3>
+            <p class="text-success h4"><%= data[i].title %></p>
+            <p class="text-success"><%= data[i].body %></p>
+            
+        <% } %>
+    </main>
+
+<%- include("partials/footer.ejs") %>

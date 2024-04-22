@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+#sign-up-container {
+    height: 100vh;
+    background-color: #0f172a;
+    color: #4db7b6;
+  }

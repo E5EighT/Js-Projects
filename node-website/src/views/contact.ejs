@@ -1,0 +1,37 @@
+<%- include("partials/head.ejs") %> 
+<%- include("partials/nav.ejs") %>
+
+<section class="bg-dark">
+  <form class="container bg-dark card  vh-100 ">
+    <h2 class="text-success text-center pt-5 display-2">Contact</h2>
+<div class="card-body bg-dark text-success  d-flex flex-column justify-content-center">
+    <div>
+        <label class="mb-2" for="name">Name:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Your Name"
+          class="form-control"
+        />
+     </div>
+    <div class="mt-4">
+        <label class="mb-2" for="message">Message:</label>
+        <textarea
+          name="message"
+          id="message"
+          rows="5"
+          class="form-control"
+          placeholder="Your Message"
+        ></textarea>
+    </div>
+      <div class="text-center">
+        <button class="btn btn-success mt-4 w-25">
+            Send
+          </button>
+      </div>
+</div>
+</form>
+</section>
+
+<%- include("partials/footer.ejs") %>
